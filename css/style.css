@@ -137,7 +137,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: red;
+	background: #636a6c;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -364,7 +364,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: red;
+	color: #636a6c;
 }
 
 .hs-item p {
@@ -1000,7 +1000,7 @@ Category page
 }
 
 .jp-play {
-	background: red;
+	background: #636a6c;
 }
 
 .jp-play:after {
