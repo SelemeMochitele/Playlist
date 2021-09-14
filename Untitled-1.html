@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <form method="POST">
+        <input type="button" value="Send Email" onclick="SendEmail()">
+    </form>
+    <script type="text/javascript">
+        function SendEmail() {
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "kayjmochitele@gmail.com",
+            Password : "23837596",
+            To : 'seleme1997@gmail.com',
+            From : "kayjmochitele@gmail.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+            message => alert(message)
+            );
+        }
+    </script>
+</body>
+</html>
